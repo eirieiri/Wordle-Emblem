@@ -1,4 +1,4 @@
-import * as fs from 'fs'; 
+import * as fs from 'fs';
 import * as path from 'path';
 
 enum Game {
@@ -21,25 +21,42 @@ enum Game {
   FE17 = "Fire Emblem Engage",
 }
 
-//character class
-interface Character {
-  name : string;
-  game : Game;
-  gender : string;
-  promotion : string;
-  weapons : string[];
-  mounts : string[];
-  image : string;
+// class
+class Character {
+  name: string;
+  game: Game;
+  gender: string;
+  promotion: string;
+  weapons: string[];
+  mounts: string[];
+  image: string;
+
+  constructor(name: string, game: Game, gender: string, promotion: string, weapons: string[], mounts: string[], image: string) {
+    this.name = name;
+    this.game = game;
+    this.gender = gender;
+    this.promotion = promotion;
+    this.weapons = weapons;
+    this.mounts = mounts;
+    this.image = image;
+  }
+  
+  compare (other: Character) {
+
+  }
 }
 
 
-// Construct the correct path to the characters.json file
+
+//pathing
 const charactersFilePath = path.join(__dirname, '../characters/engage.json');
 
-// Read characters from JSON file
+//read json file
 const charactersJSON = fs.readFileSync(charactersFilePath, 'utf-8');
 const characters: Character[] = JSON.parse(charactersJSON);
 
+/*
+//display everything 
 characters.forEach((character) => {
   console.log(`Name: ${character.name}`);
   console.log(`Game: ${character.game}`);
@@ -50,3 +67,11 @@ characters.forEach((character) => {
   console.log(`Image: ${character.image}`);
   console.log('----------------------');
 });
+
+//finer
+let targetCharacterName = "Madeline";
+//finder function
+let targetCharacterIndex = characters.findIndex(
+  character => character.name.toLowerCase().trim() === targetCharacterName.trim().toLowerCase()
+);
+*/
