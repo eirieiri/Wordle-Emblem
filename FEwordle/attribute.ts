@@ -19,6 +19,7 @@ enum Game {
   FE15 = "Fire Emblem Echoes: Shadows of Valentia",
   FE16 = "Fire Emblem: Three Houses",
   FE17 = "Fire Emblem Engage",
+  UNDEFINED = ""
 }
 
 // class
@@ -42,7 +43,39 @@ class Character {
   }
   
   compare (other: Character) {
-
+    var commonName = "";
+    if (this.name == other.name) {
+      commonName = this.name;
+    }
+    var commonGame = Game.UNDEFINED;
+    if (this.game == other.game) {
+      commonGame = this.game
+    }
+    var commonGender = "";
+    if (this.gender == other.gender) {
+      commonGender = this.gender
+    }
+    var commonPromo = "";
+    if (this.promotion == other.promotion) {
+      commonPromo = this.promotion
+    }
+    var commonWeapons : string[] = [];
+    for (let i = 0; i < this.weapons.length; i++) {
+      for (let j = 0; j < other.weapons.length; j++) {
+        if (this.weapons[i] == other.weapons[j]) {
+          commonWeapons.push(this.weapons[i])
+        }
+      }
+    }
+    var commonMounts : String[] = []
+    for (let i = 0; i < this.mounts.length; i++) {
+      for (let j = 0; j < other.mounts.length; j++) {
+        if (this.mounts[i] == other.mounts[j]) {
+          commonMounts.push(this.mounts[i])
+        }
+      }
+    }
+    return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonWeapons, "");
   }
 }
 
@@ -68,10 +101,13 @@ characters.forEach((character) => {
   console.log('----------------------');
 });
 
-//finer
-let targetCharacterName = "Madeline";
+//finder
+let find = "Madeline";
 //finder function
-let targetCharacterIndex = characters.findIndex(
-  character => character.name.toLowerCase().trim() === targetCharacterName.trim().toLowerCase()
+let index = characters.findIndex(
+  char => char.name.toLowerCase().trim() === find.trim().toLowerCase()
 );
+console.log("Character found at: " + index + " out of " + characters.length)
+
+console.log(characters[index])
 */
