@@ -5,7 +5,7 @@ const Weapon = {
     BOW : "bow",
     STAFF : "staff",
     TOME : "tome",
-    FIST : "first", //gauntlets in FE3H, fists in FEE
+    FIST : "fist", //gauntlets in FE3H, fists in FEE
     KNIFE : "knife",
     STONE : "stone" //Laguz, Dragon, Tagiel 
 }
