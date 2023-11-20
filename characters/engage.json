@@ -1,0 +1,389 @@
+[
+    {
+        "name": "Alear (male) ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["SWORD"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Alear (female) ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["SWORD"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Vander ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["AXE"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Clanne ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["TOME"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Framme ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["STAFF", "FIST"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Alfred ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["LANCE"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Etie ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["BOW"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Boucheron ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["AXE"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Céline ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["TOME", "SWORD"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Chloé ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["LANCE"],
+        "mounts": ["FLYING"],
+        "image": " "
+    },
+    {
+        "name": "Louis ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["LANCE"],
+        "mounts": ["ARMORED"],
+        "image": " "
+    },
+    {
+        "name": "Yunaka ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["KNIFE"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Alcryst ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["BOW"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Citrinne ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["TOME"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Lapis ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["SWORD"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Diamant ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["SWORD"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Amber ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["LANCE"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Jade ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["AXE"],
+        "mounts": ["ARMORED"],
+        "image": " "
+    },
+    {
+        "name": "Ivy ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["TOME", "STAFF"],
+        "mounts": ["FLYING", "DRAGON"],
+        "image": " "
+    },
+    {
+        "name": "Kagetsu ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["SWORD"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Zelkov ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["KNIFE"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Fogado ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["BOW"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Pandreo ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["STAFF", "FIST", "TOME"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Bunet ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["SWORD", "AXE"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Timerra ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["LANCE"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Panette ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["AXE"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Merrin ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["SWORD", "KNIFE"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Hortensia ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["STAFF", "TOME"],
+        "mounts": ["FLYING"],
+        "image": " "
+    },
+    {
+        "name": "Seadall ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["FIST"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Rosado ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["AXE", "LANCE"],
+        "mounts": ["FLYING", "DRAGON"],
+        "image": " "
+    },
+    {
+        "name": "Goldmary ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["SWORD", "LANCE"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Lindon ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["TOME", "STAFF"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Saphir ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["AXE", "BOW"],
+        "mounts": ["INFANTRY"],
+        "image": " "
+    },
+    {
+        "name": "Mauvier ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["LANCE", "STAFF"],
+        "mounts": ["MOUNTED"],
+        "image": " "
+    },
+    {
+        "name": "Veyle ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["TOME", "KNIFE"],
+        "mounts": ["DRAGON"],
+        "image": " "
+    },
+    {
+        "name": "Jean ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "VILLAGER",
+        "weapons": [],
+        "mounts": [],
+        "image": " "
+    },
+    {
+        "name": "Jean ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "STANDARD",
+        "weapons": ["STAFF", "FIST"],
+        "mounts": ["INFANTRY"],
+        "IMAGE": " "
+    },
+    {
+        "name": "Anna ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "STANDARD",
+        "weapons": ["AXE"],
+        "mounts": ["INFANTRY"],
+        "IMAGE": " "
+    },
+    {
+        "name": "Nel ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["STONE", "LANCE"],
+        "mounts": ["DRAGON"],
+        "IMAGE": " "
+    },
+    {
+        "name": "Nil ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["AXE", "STONE"],
+        "mounts": ["DRAGON"],
+        "IMAGE": " "
+    },
+    {
+        "name": "Zelestia ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "NOPROMOTION",
+        "weapons": ["SWORD", "TOME"],
+        "mounts": ["FLYING", "DRAGON"],
+        "IMAGE": " "
+    },
+    {
+        "name": "Gregory ",
+        "game": "FE17",
+        "gender": "MALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["TOME", "STAFF"],
+        "mounts": ["INFANTRY"],
+        "IMAGE": " "
+    },
+    {
+        "name": "Madeline ",
+        "game": "FE17",
+        "gender": "FEMALE",
+        "promotion": "PREPROMOTE",
+        "weapons": ["AXE"],
+        "mounts": ["ARMORED"],
+        "IMAGE": " "
+    }
+]
