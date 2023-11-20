@@ -6,7 +6,7 @@
         "promotion": "STANDARD",
         "weapons": ["SWORD"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Alear_male_portrait.png" 
     },
     {
         "name": "Alear (female) ",
@@ -15,7 +15,7 @@
         "promotion": "STANDARD",
         "weapons": ["SWORD"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Alear_female_portrait.png"
     },
     {
         "name": "Vander ",
@@ -24,7 +24,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["AXE"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Vander_portrait.png"
     },
     {
         "name": "Clanne ",
@@ -33,7 +33,7 @@
         "promotion": "STANDARD",
         "weapons": ["TOME"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Clanne_portrait.png"
     },
     {
         "name": "Framme ",
@@ -42,7 +42,7 @@
         "promotion": "STANDARD",
         "weapons": ["STAFF", "FIST"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Framme_portrait.png"
     },
     {
         "name": "Alfred ",
@@ -51,7 +51,7 @@
         "promotion": "STANDARD",
         "weapons": ["LANCE"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Alfred_portrait.png"
     },
     {
         "name": "Etie ",
@@ -60,7 +60,7 @@
         "promotion": "STANDARD",
         "weapons": ["BOW"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Etie_portrait.png"
     },
     {
         "name": "Boucheron ",
@@ -69,7 +69,7 @@
         "promotion": "STANDARD",
         "weapons": ["AXE"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Boucheron_portrait.png"
     },
     {
         "name": "Céline ",
@@ -78,7 +78,7 @@
         "promotion": "STANDARD",
         "weapons": ["TOME", "SWORD"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Céline_portrait.png"
     },
     {
         "name": "Chloé ",
@@ -87,7 +87,7 @@
         "promotion": "STANDARD",
         "weapons": ["LANCE"],
         "mounts": ["FLYING"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Chloé_portrait.png"
     },
     {
         "name": "Louis ",
@@ -96,7 +96,7 @@
         "promotion": "STANDARD",
         "weapons": ["LANCE"],
         "mounts": ["ARMORED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Louis_portrait.png"
     },
     {
         "name": "Yunaka ",
@@ -105,7 +105,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["KNIFE"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Yunaka_portrait.png"
     },
     {
         "name": "Alcryst ",
@@ -114,7 +114,7 @@
         "promotion": "STANDARD",
         "weapons": ["BOW"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Alcryst_portrait.png"
     },
     {
         "name": "Citrinne ",
@@ -123,7 +123,7 @@
         "promotion": "STANDARD",
         "weapons": ["TOME"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Citrinne_portrait.png"
     },
     {
         "name": "Lapis ",
@@ -132,7 +132,7 @@
         "promotion": "STANDARD",
         "weapons": ["SWORD"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Lapis_portrait.png"
     },
     {
         "name": "Diamant ",
@@ -141,7 +141,7 @@
         "promotion": "STANDARD",
         "weapons": ["SWORD"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Diamant_portrait.png"
     },
     {
         "name": "Amber ",
@@ -150,7 +150,7 @@
         "promotion": "STANDARD",
         "weapons": ["LANCE"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Amber_portrait.png"
     },
     {
         "name": "Jade ",
@@ -159,7 +159,7 @@
         "promotion": "STANDARD",
         "weapons": ["AXE"],
         "mounts": ["ARMORED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Jade_portrait.png"
     },
     {
         "name": "Ivy ",
@@ -168,7 +168,7 @@
         "promotion": "STANDARD",
         "weapons": ["TOME", "STAFF"],
         "mounts": ["FLYING", "DRAGON"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Ivy_portrait.png"
     },
     {
         "name": "Kagetsu ",
@@ -177,7 +177,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["SWORD"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Kagetsu_portrait.png"
     },
     {
         "name": "Zelkov ",
@@ -186,7 +186,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["KNIFE"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Zelkov_portrait.png"
     },
     {
         "name": "Fogado ",
@@ -195,7 +195,7 @@
         "promotion": "STANDARD",
         "weapons": ["BOW"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Fogado_portrait.png"
     },
     {
         "name": "Pandreo ",
@@ -204,7 +204,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["STAFF", "FIST", "TOME"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Pandreo_portrait.png"
     },
     {
         "name": "Bunet ",
@@ -213,7 +213,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["SWORD", "AXE"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Bunet_portrait.png"
     },
     {
         "name": "Timerra ",
@@ -222,7 +222,7 @@
         "promotion": "STANDARD",
         "weapons": ["LANCE"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Timerra_portrait.png"
     },
     {
         "name": "Panette ",
@@ -231,7 +231,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["AXE"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Panette_portrait.png"
     },
     {
         "name": "Merrin ",
@@ -240,7 +240,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["SWORD", "KNIFE"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Merrin_portrait.png"
     },
     {
         "name": "Hortensia ",
@@ -249,7 +249,7 @@
         "promotion": "STANDARD",
         "weapons": ["STAFF", "TOME"],
         "mounts": ["FLYING"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Hortensia_portrait.png"
     },
     {
         "name": "Seadall ",
@@ -258,7 +258,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["FIST"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Seadall_portrait.png"
     },
     {
         "name": "Rosado ",
@@ -267,7 +267,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["AXE", "LANCE"],
         "mounts": ["FLYING", "DRAGON"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Rosado_portrait.png"
     },
     {
         "name": "Goldmary ",
@@ -276,7 +276,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["SWORD", "LANCE"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Goldmary_portrait.png"
     },
     {
         "name": "Lindon ",
@@ -285,7 +285,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["TOME", "STAFF"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Lindon_portrait.png"
     },
     {
         "name": "Saphir ",
@@ -294,7 +294,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["AXE", "BOW"],
         "mounts": ["INFANTRY"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Saphir_portrait.png"
     },
     {
         "name": "Mauvier ",
@@ -303,7 +303,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["LANCE", "STAFF"],
         "mounts": ["MOUNTED"],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Mauvier_portrait.png"
     },
     {
         "name": "Veyle ",
@@ -312,16 +312,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["TOME", "KNIFE"],
         "mounts": ["DRAGON"],
-        "image": " "
-    },
-    {
-        "name": "Jean ",
-        "game": "FE17",
-        "gender": "MALE",
-        "promotion": "VILLAGER",
-        "weapons": [],
-        "mounts": [],
-        "image": " "
+        "image": "characters/characterpictures/17 Engage/FEE_Veyle_portrait.png"
     },
     {
         "name": "Jean ",
@@ -330,7 +321,7 @@
         "promotion": "STANDARD",
         "weapons": ["STAFF", "FIST"],
         "mounts": ["INFANTRY"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Jean_portrait.png"
     },
     {
         "name": "Anna ",
@@ -339,7 +330,7 @@
         "promotion": "STANDARD",
         "weapons": ["AXE"],
         "mounts": ["INFANTRY"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Anna_portrait.png"
     },
     {
         "name": "Nel ",
@@ -348,7 +339,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["STONE", "LANCE"],
         "mounts": ["DRAGON"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Nel_portrait.png"
     },
     {
         "name": "Nil ",
@@ -357,7 +348,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["AXE", "STONE"],
         "mounts": ["DRAGON"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Nil_portrait.png"
     },
     {
         "name": "Zelestia ",
@@ -366,7 +357,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["SWORD", "TOME"],
         "mounts": ["FLYING", "DRAGON"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Zelestia_portrait.png"
     },
     {
         "name": "Gregory ",
@@ -375,7 +366,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["TOME", "STAFF"],
         "mounts": ["INFANTRY"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Gregory_portrait.png"
     },
     {
         "name": "Madeline ",
@@ -384,6 +375,6 @@
         "promotion": "PREPROMOTE",
         "weapons": ["AXE"],
         "mounts": ["ARMORED"],
-        "IMAGE": " "
+        "IMAGE": "characters/characterpictures/17 Engage/FEE_Madeline_portrait.png"
     }
 ]
