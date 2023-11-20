@@ -1,3 +1,5 @@
+console.log("*** Hello World from FEwordle/attribute.ts ***");
+
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -23,7 +25,7 @@ enum Game {
 }
 
 // class
-class Character {
+export class Character {
   name: string;
   game: Game;
   gender: string;
@@ -86,7 +88,7 @@ const charactersFilePath = path.join(__dirname, '../characters/engage.json');
 
 //read json file
 const charactersJSON = fs.readFileSync(charactersFilePath, 'utf-8');
-const characters: Character[] = JSON.parse(charactersJSON);
+export const characters: Character[] = JSON.parse(charactersJSON);
 
 /*
 //display everything 
