@@ -321,7 +321,7 @@
         "promotion": "STANDARD",
         "weapons": ["STAFF", "FIST"],
         "mounts": ["INFANTRY"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Jean_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Jean_portrait.png"
     },
     {
         "name": "Anna ",
@@ -330,7 +330,7 @@
         "promotion": "STANDARD",
         "weapons": ["AXE"],
         "mounts": ["INFANTRY"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Anna_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Anna_portrait.png"
     },
     {
         "name": "Nel ",
@@ -339,7 +339,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["STONE", "LANCE"],
         "mounts": ["DRAGON"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Nel_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Nel_portrait.png"
     },
     {
         "name": "Nil ",
@@ -348,7 +348,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["AXE", "STONE"],
         "mounts": ["DRAGON"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Nil_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Nil_portrait.png"
     },
     {
         "name": "Zelestia ",
@@ -357,7 +357,7 @@
         "promotion": "NOPROMOTION",
         "weapons": ["SWORD", "TOME"],
         "mounts": ["FLYING", "DRAGON"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Zelestia_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Zelestia_portrait.png"
     },
     {
         "name": "Gregory ",
@@ -366,7 +366,7 @@
         "promotion": "PREPROMOTE",
         "weapons": ["TOME", "STAFF"],
         "mounts": ["INFANTRY"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Gregory_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Gregory_portrait.png"
     },
     {
         "name": "Madeline ",
@@ -375,6 +375,6 @@
         "promotion": "PREPROMOTE",
         "weapons": ["AXE"],
         "mounts": ["ARMORED"],
-        "IMAGE": "characters/characterpictures/17 Engage/FEE_Madeline_portrait.png"
+        "image": "characters/characterpictures/17 Engage/FEE_Madeline_portrait.png"
     }
 ]
