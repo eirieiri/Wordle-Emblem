@@ -1,6 +1,15 @@
 {
   "devDependencies": {
     "@types/node": "^20.9.2",
-    "type" : "module"
-  }
+    "type": "module"
+  },
+  "name": "fewordle",
+  "description": "-    FE1 : \"Fire Emblem: Shadow Dragon and the Blade of Light\"\r -    FE2 : \"Fire Emblem: Gaiden\"\r -    FE3 : \"Fire Emblem: Mystery of the Emblem\"\r -    FE4 : \"Fire Emblem: Genealogy of the Holy War\"\r -    FE5 : \"Fire Emblem: Thracia 776\"\r -    FE6 : \"Fire Emblem: The Binding Blade\"\r -    FE7 : \"Fire Emblem: The Blazing Blade\"\r -    FE8 : \"Fire Emblem: The Sacred Stones\"\r -    FE9 : \"Fire Emblem: Path of Radiance\"\r -    FE10 : \"Fire Emblem: Radiant Dawn\"\r -    FE11 : \"Fire Emblem: Shadow Dragon\"\r -    FE12 : \"Fire Emblem: New Mystery of the Emblem\"\r -    FE13 : \"Fire Emblem Awakening\"\r -    FE14 : \"Fire Emblem Fates\"\r -    FE15 : \"Fire Emblem Echoes: Shadows of Valentia\"\r -    FE16 : \"Fire Emblem: Three Houses\"\r -    FE17 : \"Fire Emblem Engage\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
