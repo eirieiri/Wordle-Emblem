@@ -1,16 +1,10 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.characters = void 0;
-const engage_json_1 = __importDefault(require("../characters/engage.json"));
-const attribute_1 = require("./attribute");
-exports.characters = [];
-for (let i = 0; i < engage_json_1.default.length; i++) {
-    let element = engage_json_1.default[i];
-    let game = attribute_1.Game[element.game];
-    exports.characters.push(new attribute_1.Character(element.name, game, element.gender, element.promotion, element.weapons, element.mounts, element.image));
+import engageCharacters from "../characters/engage.json";
+import { Character, Game } from "./attribute";
+export let characters = [];
+for (let i = 0; i < engageCharacters.length; i++) {
+    let element = engageCharacters[i];
+    let game = Game[element.game];
+    characters.push(new Character(element.name, game, element.gender, element.promotion, element.weapons, element.mounts, element.image));
 }
 /*
 //display everything

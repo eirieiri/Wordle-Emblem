@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("*** Hello World from FEwordle/hintBox.tsx ***");
-const importCharacters_1 = require("./importCharacters");
+import { characters } from "./importCharacters";
 function characterSelector(domNode) {
     let selector = domNode.querySelector("select");
     if (!selector) {
@@ -11,7 +9,7 @@ function characterSelector(domNode) {
         domNode.appendChild(selector);
     }
     let index = 0;
-    importCharacters_1.characters.forEach(char => {
+    characters.forEach(char => {
         console.log(index++);
         let opt = document.createElement("option");
         opt.textContent = char.name;

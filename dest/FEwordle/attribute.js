@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Character = exports.Game = void 0;
 console.log("*** Hello World from FEwordle/attribute.ts ***");
-var Game;
+export var Game;
 (function (Game) {
     Game["FE1"] = "Fire Emblem: Shadow Dragon and the Blade of Light";
     Game["FE2"] = "Fire Emblem: Gaiden";
@@ -22,9 +19,9 @@ var Game;
     Game["FE16"] = "Fire Emblem: Three Houses";
     Game["FE17"] = "Fire Emblem Engage";
     Game["UNDEFINED"] = "";
-})(Game || (exports.Game = Game = {}));
+})(Game || (Game = {}));
 // class
-class Character {
+export class Character {
     constructor(name, game, gender, promotion, weapons, mounts, image) {
         this.name = name;
         this.game = game;
@@ -70,4 +67,3 @@ class Character {
         return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonWeapons, "");
     }
 }
-exports.Character = Character;
