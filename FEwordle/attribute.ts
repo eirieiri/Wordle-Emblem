@@ -1,9 +1,6 @@
 console.log("*** Hello World from FEwordle/attribute.ts ***");
 
-import * as fs from 'fs';
-import * as path from 'path';
-
-enum Game {
+export enum Game {
   FE1 = "Fire Emblem: Shadow Dragon and the Blade of Light",
   FE2 = "Fire Emblem: Gaiden",
   FE3 = "Fire Emblem: Mystery of the Emblem",
@@ -82,34 +79,3 @@ export class Character {
 }
 
 
-
-//pathing
-const charactersFilePath = path.join(__dirname, '../characters/engage.json');
-
-//read json file
-const charactersJSON = fs.readFileSync(charactersFilePath, 'utf-8');
-export const characters: Character[] = JSON.parse(charactersJSON);
-
-/*
-//display everything 
-characters.forEach((character) => {
-  console.log(`Name: ${character.name}`);
-  console.log(`Game: ${character.game}`);
-  console.log(`Gender: ${character.gender}`);
-  console.log(`Promotion: ${character.promotion}`);
-  console.log(`Weapons: ${character.weapons.join(', ')}`);
-  console.log(`Mounts: ${character.mounts.join(', ')}`);
-  console.log(`Image: ${character.image}`);
-  console.log('----------------------');
-});
-
-//finder
-let find = "Madeline";
-//finder function
-let index = characters.findIndex(
-  char => char.name.toLowerCase().trim() === find.trim().toLowerCase()
-);
-console.log("Character found at: " + index + " out of " + characters.length)
-
-console.log(characters[index])
-*/

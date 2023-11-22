@@ -1,0 +1,10 @@
+{
+    "include": ["characters/*.json"],
+    "compilerOptions": {
+        "target": "ES6",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    }
+}
