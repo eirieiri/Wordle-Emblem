@@ -1,5 +1,5 @@
-import engageCharacters from "../characters/engage.json";
-import { Character, Game } from "./attribute";
+import { Character, Game } from "./attribute.js";
+import engageCharacters from "../characters/engage.json" assert {type: 'json'};
 
 export let characters : Character[] = []
 

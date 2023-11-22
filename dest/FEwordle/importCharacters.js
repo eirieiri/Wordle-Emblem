@@ -1,5 +1,5 @@
-import engageCharacters from "../characters/engage.json";
-import { Character, Game } from "./attribute";
+import { Character, Game } from "./attribute.js";
+import engageCharacters from "../characters/engage.json" assert { type: 'json' };
 export let characters = [];
 for (let i = 0; i < engageCharacters.length; i++) {
     let element = engageCharacters[i];
@@ -28,4 +28,4 @@ let index = characters.findIndex(
 console.log("Character found at: " + index + " out of " + characters.length)
 
 console.log(characters[index])
-*/ 
+*/
