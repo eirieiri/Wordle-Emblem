@@ -3,7 +3,7 @@ console.log("*** Hello World from FEwordle/hintBox.tsx ***");
 import {Character} from "./attribute";
 import {characters} from "./importCharacters"
 
-function characterSelector(domNode) {
+function characterSelector(domNode : any) {
     let selector = domNode.querySelector("select");
     if (!selector) {
         selector = document.createElement("select");
