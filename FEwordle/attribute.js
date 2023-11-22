@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Character = exports.Game = void 0;
 console.log("*** Hello World from FEwordle/attribute.ts ***");
-var Game;
+export var Game;
 (function (Game) {
     Game["FE1"] = "Fire Emblem: Shadow Dragon and the Blade of Light";
     Game["FE2"] = "Fire Emblem: Gaiden";
@@ -22,10 +19,10 @@ var Game;
     Game["FE16"] = "Fire Emblem: Three Houses";
     Game["FE17"] = "Fire Emblem Engage";
     Game["UNDEFINED"] = "";
-})(Game || (exports.Game = Game = {}));
+})(Game || (Game = {}));
 // class
-var Character = /** @class */ (function () {
-    function Character(name, game, gender, promotion, weapons, mounts, image) {
+export class Character {
+    constructor(name, game, gender, promotion, weapons, mounts, image) {
         this.name = name;
         this.game = game;
         this.gender = gender;
@@ -34,7 +31,7 @@ var Character = /** @class */ (function () {
         this.mounts = mounts;
         this.image = image;
     }
-    Character.prototype.compare = function (other) {
+    compare(other) {
         var commonName = "";
         if (this.name == other.name) {
             commonName = this.name;
@@ -52,23 +49,22 @@ var Character = /** @class */ (function () {
             commonPromo = this.promotion;
         }
         var commonWeapons = [];
-        for (var i = 0; i < this.weapons.length; i++) {
-            for (var j = 0; j < other.weapons.length; j++) {
+        for (let i = 0; i < this.weapons.length; i++) {
+            for (let j = 0; j < other.weapons.length; j++) {
                 if (this.weapons[i] == other.weapons[j]) {
                     commonWeapons.push(this.weapons[i]);
                 }
             }
         }
         var commonMounts = [];
-        for (var i = 0; i < this.mounts.length; i++) {
-            for (var j = 0; j < other.mounts.length; j++) {
+        for (let i = 0; i < this.mounts.length; i++) {
+            for (let j = 0; j < other.mounts.length; j++) {
                 if (this.mounts[i] == other.mounts[j]) {
                     commonMounts.push(this.mounts[i]);
                 }
             }
         }
         return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonWeapons, "");
-    };
-    return Character;
-}());
-exports.Character = Character;
+    }
+}
+//# sourceMappingURL=attribute.js.map

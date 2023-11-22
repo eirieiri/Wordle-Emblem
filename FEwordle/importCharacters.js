@@ -1,13 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.characters = void 0;
-var engage_json_1 = require("../characters/engage.json");
-var attribute_1 = require("./attribute");
-exports.characters = [];
-for (var i = 0; i < engage_json_1.default.length; i++) {
-    var element = engage_json_1.default[i];
-    var game = attribute_1.Game[element.game];
-    exports.characters.push(new attribute_1.Character(element.name, game, element.gender, element.promotion, element.weapons, element.mounts, element.image));
+import engageCharacters from "../characters/engage.json";
+import { Character, Game } from "./attribute";
+export let characters = [];
+for (let i = 0; i < engageCharacters.length; i++) {
+    let element = engageCharacters[i];
+    let game = Game[element.game];
+    characters.push(new Character(element.name, game, element.gender, element.promotion, element.weapons, element.mounts, element.image));
 }
 /*
 //display everything
@@ -32,3 +29,4 @@ console.log("Character found at: " + index + " out of " + characters.length)
 
 console.log(characters[index])
 */ 
+//# sourceMappingURL=importCharacters.js.map

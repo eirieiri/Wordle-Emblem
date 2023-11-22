@@ -1,5 +1,4 @@
-import { channel } from "diagnostics_channel";
-import engageCharacters from "../characters/engage.json" 
+import engageCharacters from "../characters/engage.json";
 import { Character, Game } from "./attribute";
 
 export let characters : Character[] = []
