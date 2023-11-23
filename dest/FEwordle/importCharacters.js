@@ -1,4 +1,4 @@
-import { Character, Game } from "./attribute.js";
+import { Character, Game } from "./character.js";
 import engageCharacters from "../characters/engage.json" assert { type: 'json' };
 export let characters = [];
 for (let i = 0; i < engageCharacters.length; i++) {

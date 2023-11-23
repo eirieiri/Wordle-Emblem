@@ -99,22 +99,22 @@ export class Character {
 
     //gender
     const genderCell = document.createElement('td');
-    genderCell.textContent = this.gender.toLowerCase();
+    genderCell.textContent = this.gender;
     row.appendChild(genderCell);
 
     //promotion
     const promotionCell = document.createElement('td');
-    promotionCell.textContent = this.promotion.toLowerCase();
+    promotionCell.textContent = this.promotion;
     row.appendChild(promotionCell);
 
     //weapons
     const weaponsCell = document.createElement('td');
-    weaponsCell.textContent = this.weapons.map(weapon => weapon.toLowerCase()).join(', ');
+    weaponsCell.textContent = this.weapons.join(', ');
     row.appendChild(weaponsCell);
 
     //mounts
     const mountsCell = document.createElement('td');
-    mountsCell.textContent = this.mounts.map(mount => mount.toLowerCase()).join(', ');
+    mountsCell.textContent = this.mounts.join(', ');
     row.appendChild(mountsCell);
 
     return row;
