@@ -1,5 +1,5 @@
 import { characters } from "./importCharacters.js";
-import { Character } from "./attribute.js";
+import { Character } from "./character.js";
 
 let randomCharacter = characters[Math.floor(Math.random() * characters.length)];
 

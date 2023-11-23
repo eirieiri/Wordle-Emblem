@@ -1,6 +1,6 @@
 console.log("*** Hello World from FEwordle/hintBox.tsx ***");
 
-import {Character} from "./attribute.js";
+import {Character} from "./character.js";
 import {characters} from "./importCharacters.js"
 
 function characterSelector(domNode : Element) {
