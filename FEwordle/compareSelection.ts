@@ -15,45 +15,6 @@ selector.addEventListener('change', (event: Event) => {
   if (selectedOption) {
     let table = document.querySelector("table");
     let tbody = document.querySelector("tbody") 
-    
-    if (!table || !tbody) {
-      table = document.createElement("table");
-      output.appendChild(table);
-      tbody = document.createElement("tbody");
-      table.appendChild(tbody);
-
-      let title_row = document.createElement("tr");
-      let imageRow = document.createElement("th")
-      imageRow.textContent = "image"
-      title_row.appendChild(imageRow)
-
-      let nameRow = document.createElement("th")
-      nameRow.textContent = "name"
-      title_row.appendChild(nameRow)
-
-      let gameRow = document.createElement("th")
-      gameRow.textContent = "game"
-      title_row.appendChild(gameRow)
-
-      let genderRow = document.createElement("th")
-      genderRow.textContent = "gender"
-      title_row.appendChild(genderRow)
-
-      let promotionRow = document.createElement("th")
-      promotionRow.textContent = "promotion"
-      title_row.appendChild(promotionRow)
-
-      let weaponsRow = document.createElement("th")
-      weaponsRow.textContent = "weapons"
-      title_row.appendChild(weaponsRow);
-
-      let mountsRow = document.createElement("th")
-      mountsRow.textContent = "character type"
-      title_row.appendChild(mountsRow)
-
-      tbody.appendChild(title_row)
-      
-    } 
 
     let index = finder(selectedOption)
     let commonality = randomCharacter.compare(characters[index]);

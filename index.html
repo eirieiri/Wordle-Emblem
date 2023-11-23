@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordle Emblem</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+          }
+    </style>
 </head>
 
 <body>
@@ -17,6 +22,21 @@
     </form>
     <div id="output"></div>
     <script type="module" src="dest/FEwordle/populateSelector.js"></script>
+
+    <table width="100%" class="center">
+        <thead>
+            <tr>
+                <th>image</th>
+                <th>name</th>
+                <th>game</th>
+                <th>gender</th>
+                <th>promotion</th>
+                <th>weapons</th>
+                <th>typing</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
     <script type="module" src="dest/FEwordle/compareSelection.js"></script>
 </body>
 
