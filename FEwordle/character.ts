@@ -1,5 +1,3 @@
-console.log("*** Hello World from FEwordle/attribute.ts ***");
-
 export enum Game {
   FE1 = "Fire Emblem: Shadow Dragon and the Blade of Light",
   FE2 = "Fire Emblem: Gaiden",

@@ -1,4 +1,3 @@
-console.log("*** Hello World from FEwordle/attribute.ts ***");
 export var Game;
 (function (Game) {
     Game["FE1"] = "Fire Emblem: Shadow Dragon and the Blade of Light";

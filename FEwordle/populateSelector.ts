@@ -1,6 +1,3 @@
-console.log("*** Hello World from FEwordle/hintBox.tsx ***");
-
-import {Character} from "./character.js";
 import {characters} from "./importCharacters.js"
 
 function characterSelector(domNode : Element) {
@@ -11,8 +8,6 @@ function characterSelector(domNode : Element) {
         option.textContent = char.name;
         option.value = char.name;
         selector.appendChild(option)
-        let img = document.createElement("img")
-        img.setAttribute("src", char.image);
     })
 }
 
