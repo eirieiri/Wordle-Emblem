@@ -16,4 +16,5 @@ Each character has the following attributes:
   - dragon unit
   - mounted unit
   - armored unit
-  - flying unit   
+  - flying unit
+  - infrantry
