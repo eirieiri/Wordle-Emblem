@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordle Emblem</title>
 </head>
 
 <body>
     <h2>Select your character option</h2>
     <form id="charSubmit">
-        <select name="character" id="characterSelector">Select your Character
-            <option>Select a character</option>
+        <label for="characterSelector">Select your Character:</label>
+        <select name="character" id="characterSelector">
+            <option value="" disabled selected>Select a character</option>
         </select>
-        <script>var exports = {};</script>
-        <script type="module" src="dest\FEwordle\populateSelector.js"></script>
-        <button type="submit">submit</button>
     </form>
-    <div></div>
-    <script type="module" src="dest\FEwordle\compareSelection.js"></script>
+    <div id="output"></div>
+    <script type="module" src="dest/FEwordle/populateSelector.js"></script>
+    <script type="module" src="dest/FEwordle/compareSelection.js"></script>
 </body>
 
 </html>

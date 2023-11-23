@@ -7,6 +7,8 @@ function characterSelector(domNode) {
         option.textContent = char.name;
         option.value = char.name;
         selector.appendChild(option);
+        let img = document.createElement("img");
+        img.setAttribute("src", char.image);
     });
 }
 characterSelector(document.body);

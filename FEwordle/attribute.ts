@@ -40,8 +40,8 @@ export class Character {
     this.mounts = mounts;
     this.image = image;
   }
-  
-  compare (other: Character) {
+
+  compare(other: Character) {
     var commonName = "";
     if (this.name == other.name) {
       commonName = this.name;
@@ -58,7 +58,7 @@ export class Character {
     if (this.promotion == other.promotion) {
       commonPromo = this.promotion
     }
-    var commonWeapons : string[] = [];
+    var commonWeapons: string[] = [];
     for (let i = 0; i < this.weapons.length; i++) {
       for (let j = 0; j < other.weapons.length; j++) {
         if (this.weapons[i] == other.weapons[j]) {
@@ -66,7 +66,7 @@ export class Character {
         }
       }
     }
-    var commonMounts : String[] = []
+    var commonMounts: String[] = []
     for (let i = 0; i < this.mounts.length; i++) {
       for (let j = 0; j < other.mounts.length; j++) {
         if (this.mounts[i] == other.mounts[j]) {
@@ -75,6 +75,49 @@ export class Character {
       }
     }
     return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonWeapons, "");
+  }
+
+  display(): HTMLTableRowElement {
+    let row = document.createElement("tr")
+
+    //image
+    const imageCell = document.createElement('td');
+    const imageElement = document.createElement('img');
+    imageElement.src = this.image;
+    imageCell.appendChild(imageElement);
+    row.appendChild(imageCell);
+
+    //name
+    const nameCell = document.createElement('td');
+    nameCell.textContent = this.name;
+    row.appendChild(nameCell);
+
+    //game
+    const gameCell = document.createElement('td');
+    gameCell.textContent = this.game;
+    row.appendChild(gameCell);
+
+    //gender
+    const genderCell = document.createElement('td');
+    genderCell.textContent = this.gender.toLowerCase();
+    row.appendChild(genderCell);
+
+    //promotion
+    const promotionCell = document.createElement('td');
+    promotionCell.textContent = this.promotion.toLowerCase();
+    row.appendChild(promotionCell);
+
+    //weapons
+    const weaponsCell = document.createElement('td');
+    weaponsCell.textContent = this.weapons.map(weapon => weapon.toLowerCase()).join(', ');
+    row.appendChild(weaponsCell);
+
+    //mounts
+    const mountsCell = document.createElement('td');
+    mountsCell.textContent = this.mounts.map(mount => mount.toLowerCase()).join(', ');
+    row.appendChild(mountsCell);
+
+    return row;
   }
 }
 
