@@ -14,12 +14,11 @@ selector.addEventListener('change', (event: Event) => {
 
   if (selectedOption) {
     let table = document.querySelector("table");
-    let tbody = document.querySelector("tbody") 
+    let tbody = document.querySelector("tbody");
 
-    let index = finder(selectedOption)
-    let commonality = randomCharacter.compare(characters[index]);
+    let selectedChara = characters[finder(selectedOption)];
 
-    let newRow = commonality.display()
+    let newRow = randomCharacter.comparisonRow(selectedChara);
     tbody.appendChild(newRow);
 
     if(selectedOption === randomCharacter.name) {

@@ -41,84 +41,98 @@ export class Character {
     this.image = image;
   }
 
-  compare(other: Character) {
-    var commonName = "";
-    if (this.name == other.name) {
-      commonName = this.name;
-    }
-    var commonGame = Game.UNDEFINED;
-    if (this.game == other.game) {
-      commonGame = this.game
-    }
-    var commonGender = "";
-    if (this.gender == other.gender) {
-      commonGender = this.gender
-    }
-    var commonPromo = "";
-    if (this.promotion == other.promotion) {
-      commonPromo = this.promotion
-    }
-    var commonWeapons: string[] = [];
-    for (let i = 0; i < this.weapons.length; i++) {
-      for (let j = 0; j < other.weapons.length; j++) {
-        if (this.weapons[i] == other.weapons[j]) {
-          commonWeapons.push(this.weapons[i])
-        }
-      }
-    }
-    var commonMounts: string[] = []
-    for (let i = 0; i < this.mounts.length; i++) {
-      for (let j = 0; j < other.mounts.length; j++) {
-        if (this.mounts[i] == other.mounts[j]) {
-          commonMounts.push(this.mounts[i])
-        }
-      }
-    }
-    return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonMounts, "");
-  }
-
-  display(): HTMLTableRowElement {
+  comparisonRow(selectedCharacter: Character): HTMLTableRowElement {
     let row = document.createElement("tr")
-
-    //image
     const imageCell = document.createElement('td');
     const imageElement = document.createElement('img');
-    imageElement.src = this.image;
+    imageElement.src = selectedCharacter.image;
     imageCell.appendChild(imageElement);
     row.appendChild(imageCell);
 
-    //name
-    const nameCell = document.createElement('td');
-    nameCell.textContent = this.name;
+    //compare name
+    let commonName = this.name == selectedCharacter.name;
+    let nameCell = document.createElement("td");
+    nameCell.textContent = selectedCharacter.name;
+    if (commonName) {
+      nameCell.bgColor = "green"
+    } else {
+      nameCell.bgColor = "red"
+    }
     row.appendChild(nameCell);
 
-    //game
-    const gameCell = document.createElement('td');
-    gameCell.textContent = this.game;
+    //common game 
+    let commonGame = this.game == selectedCharacter.game;
+    let gameCell = document.createElement("td");
+    gameCell.textContent = selectedCharacter.game;
+    if (commonGame) {
+      gameCell.bgColor = "green"
+    } else {
+      gameCell.bgColor = "red"
+    }
     row.appendChild(gameCell);
 
-    //gender
-    const genderCell = document.createElement('td');
-    genderCell.textContent = this.gender;
+    //common gender
+    let commonGender = this.gender == selectedCharacter.gender;
+    let genderCell = document.createElement("td");
+    genderCell.textContent = selectedCharacter.gender;
+    if (commonGame) {
+      genderCell.bgColor = "green"
+    } else {
+      genderCell.bgColor = "red"
+    }
     row.appendChild(genderCell);
 
-    //promotion
-    const promotionCell = document.createElement('td');
-    promotionCell.textContent = this.promotion;
-    row.appendChild(promotionCell);
+    //common promotion
+    let commonPromo = this.promotion == selectedCharacter.promotion;
+    let promoCell = document.createElement("td");
+    promoCell.textContent = selectedCharacter.gender;
+    if (commonPromo) {
+      promoCell.bgColor = "green"
+    } else {
+      promoCell.bgColor = "red"
+    }
+    row.appendChild(promoCell);
 
-    //weapons
-    const weaponsCell = document.createElement('td');
-    weaponsCell.textContent = this.weapons.join(', ');
-    row.appendChild(weaponsCell);
+    //common weapon
+    let commonWeapons = 0;
+    for (let i = 0; i < this.weapons.length; i++) {
+      for (let j = 0; j < selectedCharacter.weapons.length; j++) {
+        if (this.weapons[i] == selectedCharacter.weapons[j]) {
+          commonWeapons++;
+        }
+      }
+    }
+    let weaponCell = document.createElement("td");
+    weaponCell.textContent = selectedCharacter.weapons.join(", ")
+    if (commonWeapons == 0) {
+      weaponCell.bgColor = "red";
+    } else if (commonWeapons == this.weapons.length) {
+      weaponCell.bgColor = "green";
+    } else {
+      weaponCell.bgColor = "yellow"
+    }
+    row.appendChild(weaponCell);
 
-    //mounts
-    const mountsCell = document.createElement('td');
-    mountsCell.textContent = this.mounts.join(', ');
+    //common mounts 
+    var commonMounts = 0;
+    for (let i = 0; i < this.mounts.length; i++) {
+      for (let j = 0; j < selectedCharacter.mounts.length; j++) {
+        if (this.mounts[i] == selectedCharacter.mounts[j]) {
+          commonMounts++;
+        }
+      }
+    }
+    let mountsCell = document.createElement("td");
+    mountsCell.textContent = selectedCharacter.mounts.join(", ")
+    if (commonWeapons == 0) {
+      mountsCell.bgColor = "red";
+    } else if (commonWeapons == this.mounts.length) {
+      mountsCell.bgColor = "green";
+    } else {
+      mountsCell.bgColor = "yellow"
+    }
     row.appendChild(mountsCell);
 
     return row;
   }
 }
-
-
