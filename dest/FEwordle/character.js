@@ -35,6 +35,7 @@ export class Character {
         let row = document.createElement("tr");
         const imageCell = document.createElement('td');
         const imageElement = document.createElement('img');
+        imageElement.height = 100;
         imageElement.src = selectedCharacter.image;
         imageCell.appendChild(imageElement);
         row.appendChild(imageCell);
@@ -64,7 +65,7 @@ export class Character {
         let commonGender = this.gender == selectedCharacter.gender;
         let genderCell = document.createElement("td");
         genderCell.textContent = selectedCharacter.gender;
-        if (commonGame) {
+        if (commonGender) {
             genderCell.bgColor = "green";
         }
         else {
@@ -74,7 +75,7 @@ export class Character {
         //common promotion
         let commonPromo = this.promotion == selectedCharacter.promotion;
         let promoCell = document.createElement("td");
-        promoCell.textContent = selectedCharacter.gender;
+        promoCell.textContent = selectedCharacter.promotion;
         if (commonPromo) {
             promoCell.bgColor = "green";
         }
@@ -104,7 +105,7 @@ export class Character {
         }
         row.appendChild(weaponCell);
         //common mounts 
-        var commonMounts = 0;
+        let commonMounts = 0;
         for (let i = 0; i < this.mounts.length; i++) {
             for (let j = 0; j < selectedCharacter.mounts.length; j++) {
                 if (this.mounts[i] == selectedCharacter.mounts[j]) {
@@ -114,10 +115,10 @@ export class Character {
         }
         let mountsCell = document.createElement("td");
         mountsCell.textContent = selectedCharacter.mounts.join(", ");
-        if (commonWeapons == 0) {
+        if (commonMounts == 0) {
             mountsCell.bgColor = "red";
         }
-        else if (commonWeapons == this.mounts.length) {
+        else if (commonMounts == this.mounts.length) {
             mountsCell.bgColor = "green";
         }
         else {
