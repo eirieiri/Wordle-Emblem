@@ -1,7 +1,8 @@
 # FEwordle
-
+https://eirieiri.github.io/Wordle-Emblem/
 So far only Fire Emblem: Engage characters were added. 
 
+## Attributes 
 Each character has the following attributes: 
 - Name 
 - Game : game of first appearance 
@@ -18,3 +19,4 @@ Each character has the following attributes:
   - armored unit
   - flying unit
   - infrantry
+
