@@ -8,9 +8,8 @@ selector.addEventListener('change', (event) => {
     if (selectedOption) {
         let table = document.querySelector("table");
         let tbody = document.querySelector("tbody");
-        let index = finder(selectedOption);
-        let commonality = randomCharacter.compare(characters[index]);
-        let newRow = commonality.display();
+        let selectedChara = characters[finder(selectedOption)];
+        let newRow = randomCharacter.comparisonRow(selectedChara);
         tbody.appendChild(newRow);
         if (selectedOption === randomCharacter.name) {
             let newPara = document.createElement("h1");
