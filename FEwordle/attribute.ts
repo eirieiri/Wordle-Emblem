@@ -66,7 +66,7 @@ export class Character {
         }
       }
     }
-    var commonMounts: String[] = []
+    var commonMounts: string[] = []
     for (let i = 0; i < this.mounts.length; i++) {
       for (let j = 0; j < other.mounts.length; j++) {
         if (this.mounts[i] == other.mounts[j]) {
@@ -74,7 +74,7 @@ export class Character {
         }
       }
     }
-    return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonWeapons, "");
+    return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonMounts, "");
   }
 
   display(): HTMLTableRowElement {

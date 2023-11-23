@@ -64,7 +64,7 @@ export class Character {
                 }
             }
         }
-        return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonWeapons, "");
+        return new Character(commonName, commonGame, commonGender, commonPromo, commonWeapons, commonMounts, "");
     }
     display() {
         let row = document.createElement("tr");
