@@ -44,10 +44,10 @@ export class Character {
         let nameCell = document.createElement("td");
         nameCell.textContent = selectedCharacter.name;
         if (commonName) {
-            nameCell.bgColor = "A8FF33";
+            nameCell.bgColor = "C8FF69";
         }
         else {
-            nameCell.bgColor = "C8FF69";
+            nameCell.bgColor = "FFA269";
         }
         row.appendChild(nameCell);
         //common game 
@@ -55,10 +55,10 @@ export class Character {
         let gameCell = document.createElement("td");
         gameCell.textContent = selectedCharacter.game;
         if (commonGame) {
-            gameCell.bgColor = "A8FF33";
+            gameCell.bgColor = "C8FF69";
         }
         else {
-            gameCell.bgColor = "C8FF69";
+            gameCell.bgColor = "FFA269";
         }
         row.appendChild(gameCell);
         //common gender
@@ -66,10 +66,10 @@ export class Character {
         let genderCell = document.createElement("td");
         genderCell.textContent = selectedCharacter.gender;
         if (commonGender) {
-            genderCell.bgColor = "A8FF33";
+            genderCell.bgColor = "C8FF69";
         }
         else {
-            genderCell.bgColor = "C8FF69";
+            genderCell.bgColor = "FFA269";
         }
         row.appendChild(genderCell);
         //common promotion
@@ -77,10 +77,10 @@ export class Character {
         let promoCell = document.createElement("td");
         promoCell.textContent = selectedCharacter.promotion;
         if (commonPromo) {
-            promoCell.bgColor = "A8FF33";
+            promoCell.bgColor = "C8FF69";
         }
         else {
-            promoCell.bgColor = "C8FF69";
+            promoCell.bgColor = "FFA269";
         }
         row.appendChild(promoCell);
         //common weapon
@@ -95,13 +95,13 @@ export class Character {
         let weaponCell = document.createElement("td");
         weaponCell.textContent = selectedCharacter.weapons.join(", ");
         if (commonWeapons == 0) {
-            weaponCell.bgColor = "FF6133";
+            weaponCell.bgColor = "FFA269";
         }
         else if (this.weapons.length == selectedCharacter.weapons.length && selectedCharacter.weapons.length == commonWeapons) {
-            weaponCell.bgColor = "A8FF33";
+            weaponCell.bgColor = "C8FF69";
         }
         else {
-            weaponCell.bgColor = "C8FF69";
+            weaponCell.bgColor = "FFEB69";
         }
         row.appendChild(weaponCell);
         //common mounts 
@@ -116,13 +116,13 @@ export class Character {
         let mountsCell = document.createElement("td");
         mountsCell.textContent = selectedCharacter.mounts.join(", ");
         if (commonMounts == 0) {
-            mountsCell.bgColor = "FF6133";
+            mountsCell.bgColor = "FFA269";
         }
         else if (this.mounts.length == selectedCharacter.mounts.length && selectedCharacter.mounts.length == commonMounts) {
-            mountsCell.bgColor = "A8FF33";
+            mountsCell.bgColor = "C8FF69";
         }
         else {
-            mountsCell.bgColor = "C8FF69";
+            mountsCell.bgColor = "FFEB69";
         }
         row.appendChild(mountsCell);
         return row;
